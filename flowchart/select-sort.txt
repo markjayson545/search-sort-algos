@@ -1,0 +1,21 @@
+Selection Sort works by finding the lowest number and swap it to the current higher number, 
+if the number first index is lower than the compared number it will ignore it until it 
+finds the lowest number than itself.
+
+1. initialize size
+2. Display "Enter array size"
+3. get user input for size
+4. initialize arr[size]
+5. Display "Enter (size) Elements!!!"
+6. for loop until size
+    get user input for arr[i]
+7. for loop until size - 1
+    initialize int minimum = i;
+    for (int j = i + 1; j < size: j++)
+        if arr[j] is less than arr[minimum]
+            minimum = j;
+    swap arr[i] and arr[minimum]
+8. Display "Sorted array: "
+9. for loop until size
+    Display arr[i]
+10. End program
